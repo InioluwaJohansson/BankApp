@@ -18,7 +18,8 @@ public class MainMenu{
             int op = int.Parse(Console.ReadLine());
             switch (op){
                 case 1:
-                    staffMenu.StaffsMenus();                    
+                    staffMenu.StaffsMenus();
+                    Console.WriteLine("Me");                    
                     break;
                 case 2:
                     customerMenu.CustomMenu();
